@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'Blinky.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\Blinky.AXF"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp ".\Blinky.AXF" 
+--strict --scatter "Blinky.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Blinky.map" -o Blinky.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Blinky.axf'
+### ADS-LD Command File: 'Blinky.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Blinky.lnp', Handle=0x0000031C
+### Writing '.lnp' file
+### ADS-LD Command file 'Blinky.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 1 errors
+### Updating obj list
+### LDADS_file() completed.
